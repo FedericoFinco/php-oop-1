@@ -1,0 +1,23 @@
+body{
+    background-color: #222;
+    height: 100vh;
+}
+
+header{
+    background-color: #444343;
+    height: 130px;
+}
+
+header>.container{
+    background: rgb(84,13,161);
+    background: linear-gradient(90deg, rgba(84,13,161,1) 1%, rgba(53,8,101,1) 51%, rgba(84,13,161,1) 100%);
+    
+}
+
+main{
+    height: calc(100% - 130px);
+}
+
+.mainContent{
+    height: 100%;
+}
